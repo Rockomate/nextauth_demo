@@ -57,13 +57,13 @@ const config = {
     // Atlassian,
     //Auth0,
     GitHub({
-      clientId: "Ov23lifL5CMgtBGZoGgm",
-      clientSecret: "3ad74636fcd81e27805eab6f0a667f1b98358534",
+      clientId: "",
+      clientSecret: "",
     }),
     BankIDNorway,
     BoxyHQSAML({
-      clientId: "dummy",
-      clientSecret: "dummy",
+      clientId: "",
+      clientSecret: "",
       issuer: process.env.AUTH_BOXYHQ_SAML_ISSUER,
     }),
     //Cognito,
